@@ -33,7 +33,7 @@ styles:
 
 markdown: kramdown
 highlighter: rouge
-
+asset_url: /assets
 permalink: pretty
 permalink: /:title/
 
