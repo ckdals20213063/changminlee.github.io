@@ -37,6 +37,8 @@ highlighter: rouge
 permalink: pretty
 permalink: /:title/
 
+disqus: ckdals20213063
+
 sass:
   style: compressed # nested, compact, expanded or compressed
   sourcemap: never
