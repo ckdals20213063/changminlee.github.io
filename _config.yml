@@ -37,8 +37,6 @@ highlighter: rouge
 permalink: pretty
 permalink: /:title/
 
-disqus_shortname: 'ckdals20213063'
-
 sass:
   style: compressed # nested, compact, expanded or compressed
   sourcemap: never
@@ -59,7 +57,10 @@ titles_from_headings:
   enabled: true
   strip_title: true
   collections: true
-
+comment:
+  provider:       "disqus"
+  disqus:
+    shortname:        "ckdals20213063"
 exclude:
   - .jekyll-cache/
   - .sass-cache/
